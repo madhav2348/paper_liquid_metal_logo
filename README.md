@@ -1,5 +1,7 @@
 # Paper Liquid Metal Logo
 
+https://github.com/user-attachments/assets/5fedf009-93ba-4580-8981-3afe3a66f194
+
 This demo is made with [Flutter][flutter].
 
 This project was inspired by the [Turn your logo into liquid metal][liquid-logo-demo] demo made by [Paper][paper] team.
