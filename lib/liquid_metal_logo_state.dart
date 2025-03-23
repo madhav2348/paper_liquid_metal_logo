@@ -37,7 +37,8 @@ enum LiquidMetalLogoType {
   google,
   apple,
   firebase,
-  gemini;
+  gemini,
+  lg;
 
   String get asset {
     return switch (this) {
@@ -46,6 +47,7 @@ enum LiquidMetalLogoType {
       apple => 'assets/images/apple.png',
       firebase => 'assets/images/firebase.png',
       gemini => 'assets/images/gemini.png',
+      lg => 'assets/images/lg.png'
     };
   }
 
@@ -56,6 +58,7 @@ enum LiquidMetalLogoType {
       apple => 'assets/images/svg/apple.svg',
       firebase => 'assets/images/svg/firebase.svg',
       gemini => 'assets/images/svg/gemini.svg',
+      lg => 'assets/images/svg/lg.svg'
     };
   }
 
@@ -66,6 +69,7 @@ enum LiquidMetalLogoType {
       apple => 'Apple',
       firebase => 'Firebase',
       gemini => 'Gemini',
+      lg => 'LG'
     };
   }
 }
